@@ -1,0 +1,93 @@
+#intro>.flex_container {
+    background-color: #F8F4E1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 10px;
+}
+
+#Myname {
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times;
+    font-weight: bolder;
+    font-size: 42pt;
+    color: #543310;
+
+}
+
+#intro p {
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+    color: #543310;
+}
+
+#intro h2 {
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+    color: #543310;
+}
+#hero{
+    background-color: #AF8F6F;
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+#hero h1{
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times;
+    color:  #F8F4E1;
+}
+#hero p{
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+    color:  #F8F4E1;
+}
+#resume{
+    background-color: #74512D;
+
+}
+#resume h2{
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times;
+    font-weight: bolder;
+    color: #F8F4E1;
+}
+#resume li{
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+    color: #F8F4E1;
+}
+
+#projects{
+    background-color: #543310; ;
+}
+#projects h2 {
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times;
+    font-weight: bolder;
+    color: #F8F4E1;
+}
+#projects p{
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+    color: #F8F4E1;
+}
+#projects img{
+    width: 250px;
+    height: 200px;
+    border-radius: 0%;
+    border: #AF8F6F solid ;
+}
+hr {
+    border: none;
+    border-top: .07rem solid #202020;
+    border-bottom: .3rem solid #202020;
+    height: .6rem;
+}
+#contact{
+    background-color: #F8F4E1 ;
+}
+.text-custom-color {
+    color: #543310 !important;
+}
+@media (max-width: 600px)  {
+    #intro > .flex_container{
+        display: block;
+    }
+}
